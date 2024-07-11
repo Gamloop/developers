@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loop - developers</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="icons/loop.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="icons/loopx128.png" alt="Logo de Loop" class="logo-icon">
+                Loop
+            </div>
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Buscar juegos...">
+                <button id="searchButton">Buscar</button>
+            </div>
+            <ul>
+                <li><a href="#" data-tab="home" class="active">Inicio</a></li>
+                <li><a href="#" data-tab="games">Juegos</a></li>
+                <li><a href="#" data-tab="terms">Términos</a></li>
+                <li><a href="#" data-tab="about">Acerca de</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div id="home" class="tab-content active">
+            <h2>Bienvenido a Loop</h2>
+            <p>Soy un desarrollador independiente apasionado por la creación de juegos únicos y emocionantes.</p>
+            <h3>Cómo creo mis juegos</h3>
+            <p>Utilizo el motor de videojuegos Godot (versión 3.5) para desarrollar mis juegos. Este poderoso motor de código abierto me permite crear experiencias interactivas fascinantes.</p>
+            <p>Para enriquecer mis juegos, utilizo recursos como modelos 3D y sprites pixel art de varias fuentes, siempre respetando las licencias y dando crédito a los creadores originales.</p>
+            <h3>Publicidad en los juegos</h3>
+            <p>Algunos de mis juegos pueden contener publicidad para ayudar a financiar el desarrollo continuo de nuevos proyectos.</p>
+        </div>
+
+        <div id="games" class="tab-content">
+            <!-- Aquí se cargarán dinámicamente los juegos -->
+        </div>
+
+        <div id="terms" class="tab-content">
+            <h2>Términos y Condiciones</h2>
+            <p>Al utilizar mis juegos, aceptas los siguientes términos:</p>
+            <ul>
+                <li>Soy un desarrollador independiente y utilizo recursos como modelos 3D y sprites pixel art de terceros en mis juegos.</li>
+                <li>Todos los recursos utilizados se emplean de acuerdo con sus respectivas licencias.</li>
+                <li>Los créditos para los recursos utilizados se incluyen dentro de cada juego.</li>
+                <li>Si crees que se ha omitido algún crédito, por favor, utiliza el formulario de reclamo a continuación o envia un correo "last.ultimo.com.co@gmail.com".</li>
+            </ul>
+            <h3>Formulario de Reclamo</h3>
+            <form id="claimForm">
+                <textarea id="claimMessage" rows="4" placeholder="Describe tu reclamo aquí"></textarea>
+                <button type="submit" class="btn">Enviar Reclamo</button>
+            </form>
+        </div>
+
+        <div id="about" class="tab-content">
+            <h2>Acerca de Loop</h2>
+            <p>Loop es un proyecto personal dedicado a la creación de juegos innovadores usando Godot. Como desarrollador independiente, me esfuerzo por crear experiencias únicas y divertidas para los jugadores.</p>
+        </div>
+    </div>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
