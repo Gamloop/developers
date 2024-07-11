@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <img src="images/imga.png" alt="undead assault" class="rounded-image">
                 <div class="description">
                     <p>undead assault Juego de disparo acaba con zombis en un mundo en bucle.</p>
-                    <a href="htpps://juego no disponible" class="btn-download">Proximamente...</a>
+                    <a href="https://www.mediafire.com" class="btn-download">Proximamente...</a>
                 </div>
             </div>
             </div>
